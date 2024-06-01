@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": "24bc",
+      "nombre": "nombre prueba",
+      "precio": "25",
+      "urlImagen": "https://www.shutterstock.com/image-illustration/magic-beautiful-landscape-portal-mystic-600nw-2210074779.jpg"
+    },
+    {
+      "id": "24bc",
+      "nombre": "nombre prueba",
+      "precio": "25",
+      "urlImagen": "https://www.shutterstock.com/image-illustration/magic-beautiful-landscape-portal-mystic-600nw-2210074779.jpg"
+    },
+    {
+      "id": "e55e",
+      "nombre": "nombre prueba",
+      "precio": "2452",
+      "urlImagen": "https://www.shutterstock.com/image-illustration/magic-beautiful-landscape-portal-mystic-600nw-2210074779.jpg"
+    },
+    {
+      "id": "24bc",
+      "nombre": "nombre prueba",
+      "precio": "25",
+      "urlImagen": "https://www.shutterstock.com/image-illustration/magic-beautiful-landscape-portal-mystic-600nw-2210074779.jpg"
+    },
+    {
+      "id": "e55e",
+      "nombre": "nombre prueba",
+      "precio": "2452",
+      "urlImagen": "https://www.shutterstock.com/image-illustration/magic-beautiful-landscape-portal-mystic-600nw-2210074779.jpg"
+    },
+    {
+      "id": "0a08",
+      "nombre": "nombre prueba",
+      "precio": "425",
+      "urlImagen": "https://www.shutterstock.com/image-illustration/magic-beautiful-landscape-portal-mystic-600nw-2210074779.jpg"
+    }
+  ]
+}

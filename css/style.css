@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.contaienr_header_title{
+    padding: 20px;
+    display: flex;
+    background-color: #4400ff;
+    color: #fff;
+}
+.contaienr_header_title>h2{
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario_campo, .title_form{
+    margin-bottom: 20px;
+}
+
+.campo_escrita, .btn{
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0066ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.btn_delete{
+    background-color: #6730fd;
+}
+.container_card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 20px;
+    list-style: none;
+    background-color: #6730fd;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+}
+.imagen_card{
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #000;
+
+}
+.container_description_card{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+}
+.container_productos{
+    overflow: auto;
+    width: 80%;
+    height: 620px;
+    box-shadow: -3px 5px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width:542px){
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .container_card{
+        justify-content: center;
+    }
+    .container_formulario, .container_productos{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .campo_escrita{
+        width: 100%;
+    }
+}

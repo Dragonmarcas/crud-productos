@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contaienr_header_title">
+        <h2>AluraGeek</h2>
+    </div>
+    <div class="container">
+        <div class="container_listado">
+            <h3 class="title_form">MIS PRODUCTOS</h3>
+                <div class="container_card container_productos">
+                   
+                </div>
+        </div>
+        <div class="container_formulario">
+            <h3 class="title_form">AGREGAR PRODUCTO:</h3>
+            <div class="formulario_campo">
+                <input type="text" name="nombre" class="campo_escrita" id="name" placeholder="nombre..." required>
+            </div>
+            <div class="formulario_campo">
+                <input type="number" name="precio" class="campo_escrita" id="precio" placeholder="precio..." required>
+            </div>
+            <div class="formulario_campo">
+                <input type="text" name="url" class="campo_escrita" id="url" placeholder="imagen..." required>
+            </div>
+            <button class="btn" id="enviar">Enviar</button>
+            <button class="btn" id="limpiar">Limpiar</button>
+        </div>
+    </div>
+    <div class="contaienr_header_title footer" id="footer">
+        <h3>Alura Geek</h3>
+        <h4>DESARROLLADO POR MARLIO CASTAÑEDA</h4>
+    </div>
+    <script>
+        containerFooter = document.getElementById("footer")
+        let pieDePagina = document.createElement("p")
+        pieDePagina.innerHTML = `ALURA LATAM ${new Date().getFullYear()}`
+
+        containerFooter.appendChild(pieDePagina)
+    </script>
+    <script type="module" src="/js/crearProducto.js"></script>
+   <script type="module" src="/js/mostrarProductos.js"></script>
+   <script src="https://kit.fontawesome.com/34ecaafd80.js" crossorigin="anonymous"></script>
+</body>
+</html>
